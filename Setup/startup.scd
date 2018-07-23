@@ -25,7 +25,6 @@ if(PathName(gitFolder).isFolder.not)
 	"\t- Library.at(\\folders,\\synthdefs) = %".format(Library.at(\folders,\synthdefs)).postln;
 	"\t- Library.at(\\folders,\\classes) = %".format(Library.at(\folders,\classes)).postln;
 
-
 	"\nSynths loaded from directory: %".format(Library.at(\folders,\synths)).postln;
 	synDefPaths.pathMatch.do { |filename|
 		var oneFile = PathName(filename).fileNameWithoutExtension;
