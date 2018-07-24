@@ -1,0 +1,136 @@
+IDE:
+  editor:
+    blinkDuration: 600
+    disableBlinkingCursor: false
+    font:
+      antialias: 2
+      family: Consolas
+      size: 8
+    highlightBracketContents: true
+    highlightCurrentLine: false
+    inactiveEditorFadeAlpha: 64
+    indentWidth: 4
+    insertMatchingTokens: false
+    lineWrap: true
+    spaceIndent: false
+    stepForwardEvaluation: false
+    theme: _joach
+    themes:
+      _joach:
+        built-in: !textFormat
+          color: "#00abff"
+          italic: false
+        char: !textFormat
+          color: "#00abff"
+          italic: false
+        class: !textFormat
+          color: "#ffffff"
+          bold: true
+          italic: false
+        comment: !textFormat
+          color: "#5f5f5f"
+          italic: false
+        currentLine: !textFormat
+          color: "#e4e4e4"
+          background: "#393939"
+          italic: false
+        env-var: !textFormat
+          color: "#eebd0a"
+          italic: false
+        evaluatedCode: !textFormat
+          color: "#262626"
+          background: "#e6e6e6"
+          bold: true
+          italic: false
+        keyword: !textFormat
+          color: "#9d4c4d"
+          bold: true
+          italic: false
+        lineNumbers: !textFormat
+          color: "#9f9f9f"
+          italic: false
+        matchingBrackets: !textFormat
+          background: "#383838"
+          bold: true
+          italic: false
+        mismatchedBrackets: !textFormat
+          color: "#ffaa00"
+          background: "#980000"
+          italic: false
+        number: !textFormat
+          color: "#00abff"
+          italic: false
+        postwindowemphasis: !textFormat
+          color: "#e4e4e4"
+          bold: true
+          italic: false
+        postwindowerror: !textFormat
+          color: "#ff1f2a"
+          italic: false
+        postwindowsuccess: !textFormat
+          color: "#b0d206"
+          italic: false
+        postwindowtext: !textFormat
+          color: "#e4e4e4"
+          italic: false
+        postwindowwarning: !textFormat
+          color: "#de7100"
+          italic: false
+        primitive: !textFormat
+          color: "#aaff7f"
+          italic: false
+        searchResult: !textFormat
+          color: "#343434"
+          background: "#9e9e9e"
+          italic: false
+        selection: !textFormat
+          color: "#000000"
+          background: "#737373"
+          italic: false
+        string: !textFormat
+          color: "#d7d7d7"
+          italic: false
+        symbol: !textFormat
+          color: "#e5651b"
+          italic: false
+        text: !textFormat
+          color: "#c3c3c3"
+          background: "#1e1e1e"
+          italic: false
+        whitespace: !textFormat
+          color: "#e4e4e4"
+          italic: false
+    useComboBox: false
+    useComboBoxWhenSplitting: false
+  interpreter:
+    autoStart: true
+    configFile: C:/Users/Jachym/AppData/Local/SuperCollider/sclang_conf.yaml
+    runtimeDir: ""
+    standalone: false
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywACAAD////4////+AAAB4cAAAQhAAAACAAAAB4AAAO3AAAEEQAAAAACAAAAB4A=
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAADIAAAD1PwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAVAAAD1AAAAF8A////AAAAAQAAAoMAAAPU/AIAAAAB/AAAABUAAAPUAAAAYwEAABb6AAAAAAEAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAAP////8AAAETAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAABP0AAAKDAAAAowD///8AAAT8AAAD1AAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: false
+    scrollback: 1000
+  recentDocuments: !QVariantList
+    - C:/GitHub/SuperCollider/SynthDefs/fade.scd
+    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_faderTest.scd
+    - C:/Dropbox/pd/Supercollider/tmp.scd
+    - C:/Dropbox/pd/Supercollider/code/Ch 4 Ins and Outs/code/GUIexample.scd
+    - C:/Dropbox/pd/Supercollider/code/Ch 7 JIT/Ch7code.scd
+    - C:/Dropbox/pd/Supercollider/Kraftwerk's SpaceLab code.scd
+    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_bus test 150121.scd
+    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_bus test.scd
+    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_Test efx .scd
+    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_SynthLib.scd
+  shortcuts:
+    editor-indent-auto: Ctrl+E
+    editor-move-line-down: Alt+Down
+    editor-move-line-up: Alt+Up
+    ide-command-line-show: ""
+  startWithSession: last
