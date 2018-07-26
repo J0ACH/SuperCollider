@@ -43,7 +43,7 @@ IDE:
           bold: true
           italic: false
         keyword: !textFormat
-          color: "#9d4c4d"
+          color: "#9d2b2d"
           bold: true
           italic: false
         lineNumbers: !textFormat
@@ -88,13 +88,13 @@ IDE:
           background: "#737373"
           italic: false
         string: !textFormat
-          color: "#d7d7d7"
+          color: "#4e7496"
           italic: false
         symbol: !textFormat
           color: "#e5651b"
           italic: false
         text: !textFormat
-          color: "#c3c3c3"
+          color: "#a7a7a7"
           background: "#1e1e1e"
           italic: false
         whitespace: !textFormat
@@ -112,22 +112,16 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywACAAD////4////+AAAB4cAAAQhAAAACAAAAB4AAAO3AAAEEQAAAAACAAAAB4A=
-    state: AAAA/wAAAAD9AAAAAgAAAAAAAADIAAAD1PwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAVAAAD1AAAAF8A////AAAAAQAAAoMAAAPU/AIAAAAB/AAAABUAAAPUAAAAYwEAABb6AAAAAAEAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAAP////8AAAETAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAABP0AAAKDAAAAowD///8AAAT8AAAD1AAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywACAAD////4////+AAABpcAAAQDAAACCAAAAQ4AAAUnAAADyQAAAAACAAAABpA=
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAADIAAADtfwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAVAAADtQAAAF8A////AAAAAQAAAmwAAAO1/AIAAAAB/AAAABUAAAO1AAAAYwEAABb6AAAAAAEAAAAC+wAAABIAcABvAHMAdAAtAGQAbwBjAGsBAAAAAP////8AAACjAP////sAAAASAGgAZQBsAHAALQBkAG8AYwBrAQAAA/AAAAKgAAABFwD///8AAAQjAAADtQAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: false
     scrollback: 1000
   recentDocuments: !QVariantList
-    - C:/GitHub/SuperCollider/SynthDefs/fade.scd
-    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_faderTest.scd
-    - C:/Dropbox/pd/Supercollider/tmp.scd
-    - C:/Dropbox/pd/Supercollider/code/Ch 4 Ins and Outs/code/GUIexample.scd
-    - C:/Dropbox/pd/Supercollider/code/Ch 7 JIT/Ch7code.scd
-    - C:/Dropbox/pd/Supercollider/Kraftwerk's SpaceLab code.scd
-    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_bus test 150121.scd
-    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_bus test.scd
-    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_Test efx .scd
-    - C:/Dropbox/pd/Supercollider/GIT/jachym/Ja_SynthLib.scd
+    - C:/Github/SuperCollider/Setup/startup.scd
+    - C:/Users/Jachym/Dropbox/Ja_Mixer.scd
+    - C:/Users/Jachym/Dropbox/fadeEnvTask.scd
+    - C:/Github/SuperCollider/SynthDefs/fade.scd
   shortcuts:
     editor-indent-auto: Ctrl+E
     editor-move-line-down: Alt+Down
