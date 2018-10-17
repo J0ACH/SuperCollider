@@ -1,19 +1,26 @@
 (
-SynthDef(\kick, {|bus = 0, gate = 1, time = 1|
+SynthDef(\kick, {|bus = 0, gate = 1, time = 1, amp = 1|
 	var attackTime = 0.15;
-	var aEnv = EnvGen.kr(Env([0,1,0], [attackTime,time - attackTime], [3,-3]),doneAction:2);
-	var fEnv = EnvGen.kr(Env([40,1400,40], [0.03,0.19], [16,-8]));
-	var sig = SinOsc.ar(freq:fEnv!2, mul:aEnv);
+	var aEnv = EnvGen.kr(Env([0,amp,0], [attackTime,time - attackTime], [3,-3]),doneAction:2);
+	var fEnv = EnvGen.kr(Env([30,48,1400,[200,450],30], [attackTime, attackTime - 0.03,[0.13,0.01],0.19], [2,24,-8,-8]));
+	var sig = SinOsc.ar(freq:fEnv, mul:aEnv);
 	Out.ar(bus, sig);
 }).store(dir: Library.at(\folders,\synths));
 )
 
 Synth(\kick);//, [\time, 2]);
-Synth(\kick, [\time, 4]);
+Synth(\kick, [\time, 1]);
 
+Env([30,48,1400,200,30], [0.15, 0.15 - 0.03,0.05,0.19], [2,24,-8,-8]).plot
 Env([1400,1400,40], [0.15,0.09], [\hold,-8]).plot
 
-Pdef(\drum, Pbind(\instrument, \kick, \dur, 1)).play
+Pdef(\drum, Pbind(\instrument, \kick, \dur, Pseq([Pn(1,7),0.25,0.75], inf)))
+Pdef(\drum).play
 Pdef(\drum).stop
+Pdef(\drum).fadeTime = 8
+Pdef(\drum).set(\amp, 1)
+
 
 TempoClock.default.tempo_(130/60);
+
+Pdef(\drum).class
