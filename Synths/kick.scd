@@ -5,9 +5,11 @@ SynthDef(\kick, {|out = 0, gate = 1, time = 1, amp = 1|
 	var fEnv = EnvGen.kr(Env([30,48,1400,[200,450],30], [attackTime, attackTime - 0.03,[0.03,0.01],0.19], [2,24,-8,-8]));
 	var sig = SinOsc.ar(freq:fEnv, mul:aEnv);
 	Out.ar(out, sig);
-}).store(dir: Library.at(\folders,\synths));
+}).store;
+//}).store(dir: Library.at(\folders,\synths));
 )
 
+/*
 Synth(\kick);//, [\time, 2]);
 Synth(\kick, [\time, 1]);
 
@@ -27,3 +29,4 @@ Pbindef(\drum).set(\amp, 0.2)
 TempoClock.default.tempo_(130/60);
 
 Pdef(\drum).class
+*/

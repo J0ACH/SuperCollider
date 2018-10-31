@@ -4,7 +4,8 @@ SynthDef(\lpf, { |bus = 0, freq = 400|
 	var in = In.ar(bus, 2);
 	var sig = LPF.ar(in, freq);
 	ReplaceOut.ar(bus,sig);
-}).store(dir: Library.at(\folders,\synths));
+//}).store(dir: Library.at(\folders,\synths));
+}).store;
 )
 
-Synth.tail(s, \lpf, [\bus, 0, \value, 400]);
+//Synth.tail(s, \lpf, [\bus, 0, \value, 400]);
