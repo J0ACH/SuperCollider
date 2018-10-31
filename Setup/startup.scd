@@ -3,7 +3,7 @@
 
 var gitFolder = "C:/GitHub/SuperCollider";
 var displayScope = false;
-var displayTree = false;
+var displayTree = true;
 
 if(PathName(gitFolder).isFolder.not)
 { "Variable set as \"gitFolder\" in startup file not found folder %".format(gitFolder).warn; }
@@ -45,7 +45,7 @@ if(PathName(gitFolder).isFolder.not)
 	s.waitForBoot({
 		Server.default.loadDirectory(Library.at(\folders,\synths), "All external synths loaded...".postln);
 
-		if(displayScope)
+		if(displayTree)
 		{
 			Server.default.plotTreeView(
 				interval: 0.05,
@@ -56,7 +56,7 @@ if(PathName(gitFolder).isFolder.not)
 			);
 		};
 
-		if(displayTree)
+		if(displayScope)
 		{
 			Server.default.scope(4,0,rate:\control).view.bounds_(
 				Rect(
