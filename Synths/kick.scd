@@ -1,12 +1,11 @@
 (
-SynthDef(\kick, {|out = 0, gate = 1, time = 1, amp = 1|
+SynthDef(\kick, {|out = 0, gate = 1, time = 1, amp = 1, freq = 2800|
 	var attackTime = 0.15;
-	var aEnv = EnvGen.kr(Env([0,amp,0], [attackTime,time - attackTime], [3,-3]),doneAction:2);
-	var fEnv = EnvGen.kr(Env([30,48,1400,[200,450],30], [attackTime, attackTime - 0.03,[0.03,0.01],0.19], [2,24,-8,-8]));
+	var aEnv = EnvGen.kr(Env([0,amp,0], [attackTime,time - attackTime], [3,-3]), doneAction:2);
+	var fEnv = EnvGen.kr(Env([30,48,freq,[200,450],30], [attackTime-0.03, 0.03,[0.03,0.01],0.19], [2,24,-8,-8]));
 	var sig = SinOsc.ar(freq:fEnv, mul:aEnv);
 	Out.ar(out, sig);
 }).store;
-//}).store(dir: Library.at(\folders,\synths));
 )
 
 /*
