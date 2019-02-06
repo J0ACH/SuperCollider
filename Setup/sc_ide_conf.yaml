@@ -12,6 +12,7 @@ IDE:
     indentWidth: 4
     insertMatchingTokens: false
     lineWrap: true
+    showWhitespace: false
     spaceIndent: false
     stepForwardEvaluation: false
     theme: _joach
@@ -71,7 +72,7 @@ IDE:
           color: "#b0d206"
           italic: false
         postwindowtext: !textFormat
-          color: "#e4e4e4"
+          color: "#4e4e4e"
           italic: false
         postwindowwarning: !textFormat
           color: "#de7100"
@@ -95,7 +96,7 @@ IDE:
           italic: false
         text: !textFormat
           color: "#a7a7a7"
-          background: "#1e1e1e"
+          background: "#141414"
           italic: false
         whitespace: !textFormat
           color: "#e4e4e4"
@@ -104,7 +105,7 @@ IDE:
     useComboBoxWhenSplitting: false
   interpreter:
     autoStart: true
-    configFile: C:/Users/Jachym/AppData/Local/SuperCollider/sclang_conf.yaml
+    configFile: C:/Users/jachy/AppData/Local/SuperCollider/sclang_conf.yaml
     runtimeDir: ""
     standalone: false
   mainWindow:
@@ -112,16 +113,14 @@ IDE:
       documents-dock: ""
       help-dock: ""
       post-dock: ""
-    geometry: AdnQywACAAD////4////+AAABpcAAAQDAAACCAAAAQ4AAAUnAAADyQAAAAACAAAABpA=
-    state: AAAA/wAAAAD9AAAAAgAAAAAAAADIAAADtfwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAVAAADtQAAAF8A////AAAAAQAAAmwAAAO1/AIAAAAB/AAAABUAAAO1AAAAYwEAABb6AAAAAAEAAAAC+wAAABIAcABvAHMAdAAtAGQAbwBjAGsBAAAAAP////8AAACjAP////sAAAASAGgAZQBsAHAALQBkAG8AYwBrAQAAA/AAAAKgAAABFwD///8AAAQjAAADtQAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+    geometry: AdnQywACAAD////0////9AAADLMAAAg1AAAFFAAAAyAAAArDAAAIvwAAAAACAAAADKg=
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAJYA////AAAAAQAABEMAAAe8/AIAAAAB/AAAACMAAAe8AAAAdAEAACD6AAAAAAEAAAAC+wAAABIAcABvAHMAdAAtAGQAbwBjAGsBAAAAAP////8AAAD7AP////sAAAASAGgAZQBsAHAALQBkAG8AYwBrAQAAB5gAAAUQAAABYQD///8AAAhkAAAHvAAAAAEAAAACAAAAAQAAAAL8AAAAAA==
   postWindow:
     lineWrap: false
     scrollback: 1000
   recentDocuments: !QVariantList
-    - C:/Github/SuperCollider/Setup/startup.scd
-    - C:/Users/Jachym/Dropbox/Ja_Mixer.scd
-    - C:/Users/Jachym/Dropbox/fadeEnvTask.scd
-    - C:/Github/SuperCollider/SynthDefs/fade.scd
+    - C:/Dropbox/Data/Supercolider/SuperCollider_Internet_session.scd
+    - C:/GitHub/SuperCollider/Setup/startup.scd
   shortcuts:
     editor-indent-auto: Ctrl+E
     editor-move-line-down: Alt+Down
